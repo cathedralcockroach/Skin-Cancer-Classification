@@ -1,0 +1,32 @@
+.result{
+    margin-right: 50px;
+    /* position: relative;
+    top: -60px; */
+}
+.result h1{
+    /* background-color: white; */
+    /* text-decoration: underline; */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.result .output{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+}
+
+.result .output p{
+    color: white;
+}
+
+.mask{
+    margin-top: 10px;
+    width: 250px;
+}
+
+@media screen and (max-width:650px){
+    .result{
+        margin-right: 0;
+    }
+}

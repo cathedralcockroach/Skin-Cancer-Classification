@@ -1,0 +1,30 @@
+.nav{
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+}
+
+.nav li{
+    display: flex;
+    gap: 40px;
+    margin: 10px;
+    margin-right: 5%;
+}
+
+.nav li ul{
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+@media screen and (max-width:550px){
+    .nav li{
+        gap: 20px;
+        margin: 5px;
+        margin-right: 5%;
+    }
+    
+    .nav li ul{
+        /* font-size: x-large; */
+    }
+}

@@ -1,0 +1,49 @@
+.aboutlogo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.aboutlogo img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.aboutlogo h2{
+    padding-left: 6px;
+}
+
+.aboutHome{
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 85%;
+}
+
+@media screen and (max-width:800px){
+    .aboutHome{
+        margin-left: 80%;
+    }
+}
+
+@media screen and (max-width:550px){
+    .aboutlogo img{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .aboutlogo h2{
+        font-size:larger;
+    }
+
+    .aboutHome{
+        margin-left: 70%;
+    }
+}
+
+@media screen and (max-width:470px){
+    .aboutHome{
+        visibility: hidden;
+    }
+}
